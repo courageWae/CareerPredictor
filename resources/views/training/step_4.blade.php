@@ -32,15 +32,12 @@
                     </div>
                     <div class="col col-md-7">
                         <div class="section-title-s3">
-                            <h2> Congratulations. Which of the following best describes you interms of education ? </h2>
+                            <h2> Congratulations. Which of the following courses are you offering in ATU ? </h2>
                         </div>
                         <div class = "form-group">
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I have completed a post-secondary degree']) }}"><b style = "color:red; float:left">1</b>I have completed a post-secondary degree</a>
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I am currently completing my first post-secondary degree']) }}"><b style = "color:red; float:left">2</b>I am currently completing my first post-secondary degree</a>
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I have completed high school']) }}"><b style = "color:red; float:left">3</b>I have completed high school</a>
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I am currently in high school']) }}"><b style = "color:red; float:left">4</b>I am currently in high school</a>
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I have not started high school']) }}"><b style = "color:red; float:left">5</b>I have not started high school</a>
-                        <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'I attended but did not complete high school']) }}"><b style = "color:red; float:left">6</b>I attended but did not complete high school</a>
+                            <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Computer Science']) }}"><b style = "color:red; float:left">1</b>Computer Science</a>
+                            <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Information Technology']) }}"><b style = "color:red; float:left">2</b>Information Technology</a>
+                            <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Electrical Engineering']) }}"><b style = "color:red; float:left">3</b>Electrical Engineering</a>
                         </div>
                         <div class="form-group">
                             <a  class="btn btn-primary mb-2" href = "{{ route('training.step_3') }}">Back</a>

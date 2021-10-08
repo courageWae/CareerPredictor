@@ -41,104 +41,80 @@
                                 <label for="exampleFormControlInput1">Information communication technology fundamentals</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q1">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Object oriented programming with java</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q2">
                                 <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Data structures and algorithms</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q3">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Object oriented system analysis and design</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q4">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Database concepts and technologies</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q5">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Network infrastructure</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q6">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Object oriented software development with Visual Basic .NET</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q7"> 
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Information Systems Development</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q8">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
 
@@ -146,26 +122,20 @@
                                 <label for="exampleFormControlInput1">Network Server concepts</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q9">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Open source operating system : LINUX</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q10">
                                     <option disabled selected> Choose Answer </option>
-                                    <option> A+ </option>
-                                    <option> A </option>
-                                    <option> B+ </option>
-                                    <option> B </option>
-                                    <option> C+ </option>
-                                    <option> C </option>
-                                    <option> D </option>
+                                    <option> Very Good </option>
+                                    <option> Good </option>
+                                    <option> Bad</option>
+                                    <option> Very Bad</option>
                                 </select>
                             </div>
                             <div class="form-group">

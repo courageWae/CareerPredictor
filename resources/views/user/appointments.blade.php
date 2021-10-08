@@ -116,7 +116,7 @@
                                     <th colspan="10" style="padding:15px;"><span class="label label-primary" style="padding:5px;font-size: 20px;">STEP 3</span></th>
                                  </tr>
                                   <tr>
-                                      <th>IInformation communication technology fundamentals</th>
+                                      <th>formation communication technology fundamentals</th>
                                       <td>{{ $step3->q1 }}</td>
                                   </tr>
                                   <tr>
