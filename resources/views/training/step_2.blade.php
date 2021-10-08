@@ -39,13 +39,13 @@
                             {{ csrf_field() }}
                             <div class="form-group">
                               <label for="exampleFormControlSelect1">Athletics <br>
-                                Involvement in exercise, sports, and games.</label>
+                                Which sought of sporting artivity do you engage in ?</label>
                               <select class="form-control" id="exampleFormControlSelect1" name = "q1">
                                 <option disabled selected>Choose Answer</option>
-                                <option>Very Interested</option>
-                                <option>Interested</option>
-                                <option>Slightly Interested</option>
-                                <option>Not Interested</option>
+                                <option>BasketBall</option>
+                                <option>FootBall</option>
+                                <option>Tennis</option>
+                                <option>Swimming</option>
                               </select>
                             </div>
                             <div class="form-group">
