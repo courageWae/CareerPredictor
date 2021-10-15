@@ -28,7 +28,7 @@ class CareerSeeder extends Seeder
         DB::table('careers')->insert([
             'title' => "Computer Programmer",
             'definition' => "computer programmer is someone who writes new computer software using coding languages like HTML, JavaScript and CSS. Video game software can be updated to improve online gameplay, which is an opportunity for programmers to troubleshoot problems experienced by gamers after the game is released to the general public." ,
-            'salary' => "$80,000 cedis per year",
+            'salary' => "80,000 cedis per year",
             'requirement' => " A programmer typically completes a Bachelor's Degree in Computer Science and an internship to build their skills. Certifications are also strongly encouraged, and there are many coding academies to choose from."
         ]);
 

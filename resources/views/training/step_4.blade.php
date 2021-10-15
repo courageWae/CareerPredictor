@@ -37,7 +37,6 @@
                         <div class = "form-group">
                             <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Computer Science']) }}"><b style = "color:red; float:left">1</b>Computer Science</a>
                             <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Information Technology']) }}"><b style = "color:red; float:left">2</b>Information Technology</a>
-                            <a type="button" class="btn btn-primary btn-lg btn-block" href = "{{ route('training.store4', ['answer' => 'Electrical Engineering']) }}"><b style = "color:red; float:left">3</b>Electrical Engineering</a>
                         </div>
                         <div class="form-group">
                             <a  class="btn btn-primary mb-2" href = "{{ route('training.step_3') }}">Back</a>

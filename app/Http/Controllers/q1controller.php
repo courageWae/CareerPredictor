@@ -13,43 +13,31 @@ class q1controller extends Controller
 {
     public function storeInSession1()
     {
-        $step = step_1::create( request()->all() ) ;
-        $step->user_id = auth()->user()->id ;
-        $step->save();
+        $step = step_1::updateOrCreate(['user_id' => auth()->user()->id], request()->all() ) ;
         return view('training.step_2') ;
     }
 
     public function storeInSession2()
     {
-        $step = step_2::create( request()->all() ) ;
-        $step->user_id = auth()->user()->id ;
-        $step->save();
+        $step = step_2::updateOrCreate(['user_id' => auth()->user()->id], request()->all() ) ; ;
         return view('training.step_3') ;
     }
 
     public function storeInSession3()
     {
-        $step = step_3::create( request()->all() ) ;
-        $step->user_id = auth()->user()->id ;
-        $step->save();
+        $step = step_3::updateOrCreate(['user_id' => auth()->user()->id], request()->all() ) ; ;
         return view('training.step_4') ;
     }
 
     public function storeInSession4()
     {
-        $step = new Step_4();
-        $step->user_id = auth()->user()->id;
-        $step->answer = request()->segment(4) ;
-        $step->save();
+        $step = Step_4::updateOrCreate(['user_id' => auth()->user()->id], ['answer' => request()->segment(4), 'user_id' => auth()->user()->id] ) ;
         return view('training.step_5') ;
     }
 
     public function storeInSession5()
     {
-        $step = new Step_5();
-        $step->user_id = auth()->user()->id;
-        $step->answer = request()->segment(4) ;
-        $step->save();
+        $step = Step_5::updateOrCreate(['user_id' => auth()->user()->id], ['answer' => request()->segment(4), 'user_id' => auth()->user()->id] ) ;
         return redirect()->route("user.appointments") ;
     }
 }

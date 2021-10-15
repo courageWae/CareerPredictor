@@ -14,7 +14,10 @@ class CareerController extends Controller
         $careers = Collection::make(career::get())->random(2)->toArray();
         foreach($careers as $career)
         {
-            auth()->user()->profession()->create($career) ;
+            if(auth()->user()->profession()->count() !== 2)
+            {
+                auth()->user()->profession()->create($career) ;
+            }
         }
 
         $professions = profession::where('user_id', auth()->user()->id)->get();

@@ -46,9 +46,15 @@
 
                     @endforeach
                     @endisset
+                    <div style= "float:right; text-decoration:underline;">
+                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHr1opnL3NhAIuhMlGaq98oxmk1ThN7nMaT_FXb16Ko7NWVQ/viewform" target="_blank">Kindly give us a feedback</a>
+                    </div>
 
                </div> <!-- end row -->
+              
+              
             </div> <!-- end container -->
+            
         </section>
         <!-- end products-section -->
 @endsection
