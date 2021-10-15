@@ -12,7 +12,7 @@
                     <div class="col col-xs-12">
                         <h2>DashBoard</h2>
                         <ol class="breadcrumb">
-                            <li><a href="">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Dashboard</li>
                         </ol>
                     </div>
@@ -30,8 +30,9 @@
                     @include('user.dashBox')
                     @isset($professions)
                     <h2>Based on the answers to the question you provided, the following  career were predictored</h2><hr>
-                    @foreach($professions as $profession)
+                    
                     <div class="col col-lg-8" style ="padding-left:20px;">
+                        @foreach($professions as $profession)
                         <center> {{ $loop->iteration }} </center>
                         <h4>Career Title</h4>
                         <div class="well well-sm">{{ $profession->title }}</div>
@@ -42,17 +43,17 @@
                         <h3>Average Salary (Annually)</h3>
                         <div class = "well well-sm">{{ $profession->salary }}</div>
                         <hr style= "background-color : black; height : 3px">
-                    </div>
+                        @endforeach
 
-                    @endforeach
+                        <div class="col col-lg-8" >
+                           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <button class="btn btn-success" href="https://docs.google.com/forms/d/e/1FAIpQLSfHr1opnL3NhAIuhMlGaq98oxmk1ThN7nMaT_FXb16Ko7NWVQ/viewform" target="_blank">Kindly give us a feedback</button>
+                        </div>
+                    </div>
+                   
                     @endisset
-                    <div style= "float:right; text-decoration:underline;">
-                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHr1opnL3NhAIuhMlGaq98oxmk1ThN7nMaT_FXb16Ko7NWVQ/viewform" target="_blank">Kindly give us a feedback</a>
-                    </div>
-
+                    
                </div> <!-- end row -->
-              
-              
+             
             </div> <!-- end container -->
             
         </section>

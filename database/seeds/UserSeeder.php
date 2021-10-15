@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
         	'email'=>'admin@admin.com',
             'alias'=>Str::slug('Admin Admin','-'),
             'user_name'=>'Admin',
-        	'role_id'=>1,
+        	'role_id'=> 1,
         	'phone'=>1234567890,
         	'password'=>password_hash('1234567890', PASSWORD_DEFAULT)
         ]);

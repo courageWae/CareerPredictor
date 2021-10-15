@@ -10,7 +10,7 @@
                     <div class="col col-xs-12">
                         <h2>Log In</h2>
                         <ol class="breadcrumb">
-                            <li><a href="{{ route('legal.home') }}">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Login</li>
                         </ol>
                     </div>
@@ -84,6 +84,9 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
+                            </div>
+                            <div style= "float:right">
+                                <button class="btn btn-primary" href="/register" target="_blank">Register</button>
                             </div>
                         </div>
 

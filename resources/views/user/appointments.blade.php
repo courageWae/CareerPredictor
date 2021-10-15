@@ -10,7 +10,7 @@
                     <div class="col col-xs-12">
                         <h2>DashBoard</h2>
                         <ol class="breadcrumb">
-                            <li><a href="">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Dashboard</li>
                         </ol>
                     </div>
