@@ -12,9 +12,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col col-lg-8 col-sm-9 slide-caption">
-                                <h2> Join Tens who have taken our assessment</h2>
+                                <h2>Are you confused of choosing a right career? Then you are at the right place.</h2>
                                 <p>
-                                What sets you apart in the workplace? Discover the behavioral traits that shape how you think and how you work with others.</span> </h2>
+                                This system provides a platform that assists and supports in the decision making process of pre-tertiary science students seeking admission into tertiary institutions to independently choose a career path by interacting electronically with an onlliine career counselor at anytime,anywhere and on any device (Desktop, Laptop, Mobile Phones, Smart Phones)
                                 </p>
                                 @if(auth()->guest())
                                 <a href="{{ route('login') }}" class="theme-btn">Login</a>
@@ -23,7 +23,7 @@
                                 @if(auth()->user())
                                 <a href="{{ route('user.appointments') }}" class="theme-btn">Dashboard</a>
                                 @endif
-    
+
                             </div>
                         </div>
                     </div>
