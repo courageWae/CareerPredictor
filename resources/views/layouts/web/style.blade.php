@@ -34,4 +34,20 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <style>
+        .print {
+              display:none;
+          }
+          .no-print{
+              display:block;
+          }
+          @media print{
+              .print {
+                  display:block;
+              }
+              .no-print{
+                  display:none;
+              }
+          }
+      </style>
     @stack('sweet_alert')

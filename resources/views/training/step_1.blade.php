@@ -68,7 +68,7 @@
                                 </select>
                               </div>
                               <div class="form-group">
-                                <label for="exampleFormControlSelect1">Oversee all aspects of a computing departments</label>
+                                <label for="exampleFormControlSelect1">Development of mobile and web applications</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q4">
                                   <option disabled selected>Choose Answer</option>
                                   <option>Very Interested</option>
@@ -78,7 +78,7 @@
                                 </select>
                               </div>
                               <div class="form-group">
-                                <label for="exampleFormControlSelect1">Help a client make business decisions</label>
+                                <label for="exampleFormControlSelect1">Help desk Support (Providing technical assistance such as hardware & software)</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q5">
                                   <option disabled selected>Choose Answer</option>
                                   <option>Very Interested</option>
@@ -88,7 +88,7 @@
                                 </select>
                               </div>
                               <div class="form-group">
-                                <label for="exampleFormControlSelect1">Help a client make business decisions</label>
+                                <label for="exampleFormControlSelect1">Cybersecurity (protection or computer system and networks from information disclosure)</label>
                                 <select class="form-control" id="exampleFormControlSelect1" name = "q6">
                                   <option disabled selected>Choose Answer</option>
                                   <option>Very Interested</option>

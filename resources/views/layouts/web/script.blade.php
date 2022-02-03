@@ -9,4 +9,11 @@
 
     <!-- Custom script for this template -->
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script>
+        var jsPrintAll = function () {
+            setTimeout(function () {
+                window.print();
+            }, 500);
+        }
+    </script>
     @stack('sweet-alert')
