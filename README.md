@@ -30,6 +30,11 @@ composer install --ignore-platform-reqs
 ### Step THREE
 
 ```bash
+php artisan key:generate
+```
+### Step FOUR
+
+```bash
 php artisan migrate --seed
 ```
 
