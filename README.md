@@ -47,6 +47,12 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+### Step FIVE
+
+```bash
+php artisan migrate --seed
+```
+
 ## Usage
 A User is required to answer a series of categorized questions. These questions are standard questions that trigger the in-built algorithm to predict a suitable career for the user.
 
