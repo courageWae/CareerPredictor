@@ -8,7 +8,7 @@ A Lawyer gets a personalized dashboard to manage appointments with clients and p
 
 The Admin Always gets a dashboard to monitor all activities in the application.
 
-## Tech Stack:
+## Tech Stacks:
 
 * Php
 * Laravel
