@@ -50,8 +50,9 @@ php artisan migrate --seed
 ### Step FIVE
 
 ```bash
-php artisan migrate --seed
+php artisan serve
 ```
+Host the application on http://127.0.01:8000
 
 ## Usage
 A User is required to answer a series of categorized questions. These questions are standard questions that trigger the in-built algorithm to predict a suitable career for the user.
